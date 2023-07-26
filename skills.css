@@ -1,0 +1,93 @@
+/************** Skills Set ****************************/
+#skillsDiv{
+   
+    margin: auto;
+    width: 75%;
+    /* background-color: teal; */
+    margin-top: 100px;
+    border: 1px solid gray;
+    border-radius: 8px;
+   
+}
+#skillMainBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sHeading{
+    font-size: 45px;
+    text-align: center;
+   
+    padding-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#technicalSkills{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.345);
+    /* border: 1px solid; */
+    border-radius: 10px;
+}
+#technicalSkillHeading{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.techSkillFlex{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-bottom: 20px;
+}
+.allSkillsImage{
+    width: 8%;
+    height: 40px;
+    border: 2px solid;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+.allSkillsText{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 140px;
+    color: rgba(0, 0, 0, 0.986)
+}
+/************ Tech Skills End ****************/
+
+/************** Soft Skills ****************/
+#softSkills{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.345);
+    /* border: 1px solid; */
+    border-radius: 10px;
+   
+}
+#softSkillHeading{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.softSkillFlex{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-bottom: 20px;
+}
+.allSoftSkillImage{
+    border: 2px solid;
+    width: 8%;
+    height: 40px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+#teamWorkImage{
+    margin-right: 10px;
+}
+.allSoftSkillText{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+}

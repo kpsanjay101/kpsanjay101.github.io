@@ -1,0 +1,87 @@
+#contackme{
+    margin: auto;
+    width: 75%;
+    /* background-color: teal; */
+    margin-top: 100px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+#cHeading{
+    text-align: center;
+    padding: 10px;
+}
+#horizontalLineContact{
+    border: 1px solid gray;
+    margin-top: 15px;
+
+}
+#phoneDiv{
+    display: flex;
+    margin: auto;
+    width: 20%;
+    
+    justify-content: space-evenly;
+   margin-top: 20px;
+}
+#phoneImage{
+    width: 15%;
+    height: 30px;
+}
+#number{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+#emaileDiv{
+    display: flex;
+    margin: auto;
+    width: 28%;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#emailImage{
+    width: 15%;
+    height: 45px;
+}
+#email{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+#linkeInDiv{
+    display: flex;
+    margin: auto;
+    width: 20%;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#linkeInImage{
+    width: 15%;
+    height: 30px;
+}
+#linkeIn{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+#gitHubDiv{
+    display: flex;
+    margin: auto;
+    width: 20%;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#gitHubImage{
+    width: 15%;
+    height: 30px;
+}
+#gitHub{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 2px;
+}

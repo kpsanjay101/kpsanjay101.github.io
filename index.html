@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanjay</title>
+    <title>Sanjay Kumar</title>
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="poster.css">
+    <link rel="stylesheet" href="education.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <!-------------- NAV-BAR ---------------------->
@@ -13,19 +18,18 @@
         <div id="navmainContainer">
             <div id="navmidContainer">
                 <div id="navmidLeftContainer">
-                    <img id="navmidLeftImage" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDSC_VF89gIzBwdiQkHhqAlJYaN5xJ4T2vcdX0V3vtswm_VeNS" alt="">
+                    <a href="index.html"><img id="navmidLeftImage" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDSC_VF89gIzBwdiQkHhqAlJYaN5xJ4T2vcdX0V3vtswm_VeNS" alt=""></a> 
                 </div>
                 <div id="navmidRightContainer">
-                    <p id="education" class="educationSection">Education</p>
-                    <p id="skills" class="educationSection">Skills</p>
-                    <p id="projects" class="educationSection">Projects</p>
-                    <p id="contact" class="educationSection">Contact</p>
-                    <p id="resume" class="educationSection">Resume</p>
+                    <a class="anchoreConnect" href="/#EducationalBackGround"><p id="education" class="educationSection">Education</p></a> 
+                    <a class="anchoreConnect" href="/#skillsDiv"><p id="skills" class="educationSection">Skills</p></a> 
+                    <a class="anchoreConnect" href="/#workmainDiv"><p id="projects" class="educationSection">Projects</p></a>
+                    <a class="anchoreConnect" href="/#contackme"><p id="contact" class="educationSection">Contact</p></a>
+                    <a class="anchoreConnect" href="https://drive.google.com/file/d/1VXIcQpuaCjkc1CUuyGZSAJKxVTRsbyeo/view?usp=sharing" alter="Resume" target="#"><p id="resume" class="educationSection">Resume</p></a>
                 </div>
             </div>
         </div>
     </div>
-    <!-------------- NAV-BAR End Here---------------------->
 
     <!-------------- Poster Section ---------------------->
     <div id="poster">
@@ -45,16 +49,14 @@
                 <img id="locationImage" src="https://cdn4.iconfinder.com/data/icons/business-finance-vol-13-1/512/15-64.png" alt="">
                 <p id="locationAddress"> Aurangabad, Bihar, India</p>
             </div>
-            <button id="buttonResume">RESUME</button>
+            <a class="anchoreConnect" href="https://drive.google.com/file/d/1VXIcQpuaCjkc1CUuyGZSAJKxVTRsbyeo/view?usp=sharing" alter="Resume" target="#"><button id="buttonResume">RESUME</button></a>
         </div>
         <div id="posterRight">
-            <img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCubUN2VDqYNO0nfbwpiJmiHwmkXyux32Izw&usqp=CAU" alt="">
+            <img id="myImage" src="Image/MyImageN.JPG" alt="">
         </div>
     </div>
 
-    <!-------------- Poster Section End---------------------->
-
-    <!---------------Educational Background  ---------------->
+    <!--------------- Educational Background ---------------->
     <div id="EducationalBackGround">
         <h1 id="eHeading">Educational Background</h1>
         <div id="horizontalEducation"></div>
@@ -64,7 +66,7 @@
                 <h2 class="masai">Full Stack Web Development</h2>
             </div>
             <p class="fromWhere">Masai School (Online)</p>
-            <p class="When">October 2022 - June 2023</p>
+            <p class="When">October 2022 - July 2023</p>
         </div>
 
         <div id="bTech" class="educationBack">
@@ -85,5 +87,129 @@
             <p class="When">April 2013 - March 2015</p>
         </div>
     </div>
+    <!------------------ Skills Set --------------------->
+    <div id="skillsDiv">
+        <h1 id="sHeading">Skills I have</h1>
+        <div id="horizontalEducation"></div>
+        <div id="skillMainBox">
+            <div id="technicalSkills">
+                <h2 id="technicalSkillHeading">Tech Skills</h2>
+                <div id="java" class="techSkillFlex">
+                    <img id="javaImage" class="allSkillsImage" src="Image/java.png" alt="">
+                    <p id="javaText" class="allSkillsText">Java</p>
+                </div>
+                <div id="mysql" class="techSkillFlex">
+                    <img id="mysqlImage" class="allSkillsImage" src="Image/mysql.png" alt="">
+                    <p id="mysqlText" class="allSkillsText">MySQL</p>
+                </div>
+                <div id="javaScript" class="techSkillFlex">
+                    <img id="javaScriptImage" class="allSkillsImage" src="Image/java-script.png" alt="">
+                    <p id="javaScriptText" class="allSkillsText">JavaScript</p>
+                    
+                </div>
+                <div id="html" class="techSkillFlex">
+                    <img id="htmlImage" class="allSkillsImage" src="Image/html-5.png" alt="">
+                    <p id="htmlText" class="allSkillsText">HTML-5</p>
+                </div>
+                <div id="css" class="techSkillFlex">
+                    <img id="cssImage" class="allSkillsImage" src="Image/css-3.png" alt="">
+                    <p id="cssText" class="allSkillsText">CSS-3</p>
+                </div>
+
+            </div>
+            <div id="softSkills">
+                <h2 id="softSkillHeading">Power Skills</h2>
+                <div id="adaptability" class="softSkillFlex">
+                    <img id="adapImage" class="allSoftSkillImage" src="https://cdn4.iconfinder.com/data/icons/life-skills-flat-1/64/adaptability-transformation-adjust-change-mutation-revolotion-64.png" alt=""> 
+                    <p id="adapText" class="allSoftSkillText">Adaptability</p>             
+                </div>
+                <div id="timeManagement" class="softSkillFlex">
+                    <img id="timeManImage" class="allSoftSkillImage" src="https://cdn0.iconfinder.com/data/icons/free-business-desktop-icons/48/Time.png" alt="">
+                    <p id="timemanText" class="allSoftSkillText">Time management</p>
+                </div>
+                <div id="teamWork" class="softSkillFlex">
+                    <img id="teamWorkImage" class="allSoftSkillImage" src="https://cdn2.iconfinder.com/data/icons/business-situations-flat-office-man-life/512/Meeting-64.png" alt="">
+                    <p id="teamWorkText" class="allSoftSkillText">TeamWork</p>
+                </div>
+                <div id="communication" class="softSkillFlex">
+                    <img id="communicationImage" class="allSoftSkillImage" src="https://cdn2.iconfinder.com/data/icons/communication-486/1000/marketing_communication___broadcast_message_promotion_ad_advertisement_pr-64.png" alt="">
+                    <p id="communicationText" class="allSoftSkillText">Communication</p>
+                </div>
+                <div id="problemsolving" class="softSkillFlex">
+                    <img id="problemsolvingImage" class="allSoftSkillImage" src="https://cdn4.iconfinder.com/data/icons/e-learning-2-4/66/92-64.png" alt="">
+                    <p id="problemsolvingText" class="allSoftSkillText">Problem Solving</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------- Some of My Works ------------------->    
+    <div id="workmainDiv">
+        <h1 id ="heading">Some of my works</h1>
+        <div id="horizotalLine"></div>
+        <!--------------------First Project ------------->
+        <div id="firstProjectMainDiv">
+            <div id="firstproject">
+                <img id="firstProjImage" src="Image/Licious.png" alt="">
+                <div id="firstProjDetails">
+                    <p id="firstProjectHeading">EAT-FRESH(Licious Clone)</p>
+                    <p id="firstProjObjective">Embrace the art of effortless cooking with Eat-Fresh - where quality meets convenience, and every bite becomes a gourmet delight!</p>
+                    <p class="firstProjectDesc">December 2022</p>
+                    <p class="firstProjectDesc">Individual Project</p>
+                    <p class="firstProjectDesc">Tech Stack Used : </p>
+                    <p class="firstProjectDesc">HTML | CSS | JavaScript</p>
+                    <a href="https://646ba5a8a117470cfd2149e7--statuesque-licorice-fecea9.netlify.app/index.html" target="#"><button id="firstprojectGoLive">Go Live</button></a>
+                    <a href="https://github.com/kpsanjay101/Licious-Clone" target="#"><button id="firstprojectGitHub">GitHub</button></a>
+                </div>
+            </div>
+
+        </div>
+        <!--------------------First Project End ------------->
+        <!-------------------- Second Project --------------->
+     <div id="secondproject">
+        <div id="secondProjDetails">
+            <p id="secondProjectHeading">BELK Clone</p>
+            <p id="secondProjObjective">BELK is an America-based E-commerce online website that provides
+                all types of garments, home appliances, kitchen appliances, etc...</p>
+            <p class="secondtProjectDesc">January 2022</p>
+            <p class="secondtProjectDesc">Group Project</p>
+            <p class="secondtProjectDesc">Worked on Men's page, sorting, filtering,and in Bag section</p>
+            <p class="secondtProjectDesc">Tech Stack Used : </p>
+            <p class="secondtProjectDesc">HTML | CSS | JavaScript</p>
+            <div id="liveAndGitHubButton">
+                <a href="https://64c0d68db92a573bd57d0b24--resilient-alfajores-42c7ba.netlify.app/index.html#" target="#"><button id="secondprojectGoLive">Go Live</button></a>
+                <a href="https://github.com/0x-Sarthak/teeny-wool-9254" target="#"><button id="secondprojectGitHub">GitHub</button></a>
+            </div>
+            
+        </div>
+        <img id="secondProjImage" src="Image/Belk_Poster Image.png" alt="">
+    </div>
+    </div> 
+    <!----------------- Contact Me ------------------->
+    <div id="contackme">
+        <h1 id="cHeading">Connect with me</h1>
+        <div id="horizontalLineContact"></div>
+
+        <div id="phoneDiv" class="contactDic">
+            <img id="phoneImage" src="Image/telephone.png" alt="">
+            <p id="number">+91 780 8600 828</p>
+        </div>
+
+        <div id="emaileDiv" class="contactDic">
+            <img id="emailImage" src="Image/Email.png" alt="">
+            <p id="email">sanjayhit96@gmail.com</p>
+        </div>
+
+        <div id="linkeInDiv" class="contactDic">
+            <img id="linkeInImage" src="Image/linkedin.png" alt="">
+            <p id="linkeIn">Sanjay Kumar</p>
+        </div>
+
+        <div id="gitHubDiv" class="contactDic">
+            <img id="gitHubImage" src="Image/github.png" alt="">
+            <a class="anchoreConnect" href="https://github.com/kpsanjay101" target="#"><p id="gitHub">kpsanjay101</p></a>
+        </div>
+        
+    </div>
+
 </body>
 </html>

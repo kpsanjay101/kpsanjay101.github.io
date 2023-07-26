@@ -6,10 +6,13 @@ body{
     background-color: rgba(128, 128, 128, 0.345);
 }
 /******************* NAV BAR *********************/
+#navBar{
+
+}
 #navmainContainer{
     position:fixed;
     width: 100%;
-    height: 65px;
+    height: 70px;
     z-index: 101;
     background-color: rgb(128, 128, 128);
    
@@ -19,26 +22,25 @@ body{
     margin: auto;
     width: 80%;
     height: 100%;
-   
     display: flex;
 }
 
 #navmidLeftContainer{
     width: 5%;
     height: 80%;
-   /* background-color: white; */
    border-radius: 50%;
    margin-left: 10px;
    padding-top: 5px;
 }
 #navmidLeftImage{
     cursor: pointer;
-    background-color: grey;
-    /* margin-left: 20%; */
-    color: grey;
+    /* background-color: grey;
+    color: grey; */
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
+    height: 90%;
+    border: 1px solid white;
+    border-radius: 58%;
+    margin-top: 4px;
     
 }
 
@@ -53,147 +55,40 @@ body{
 }
 
 .educationSection{
+    
     cursor: pointer;
     padding: 20px;
     font-size: 20px;
     font-weight: 500;
+    transition: 500ms;
 }
-
-/********************* NAV BAR END ************************/
-
-
-/*******************8 POSTER SECTION *****************/
-#poster{
-    /* background-color: teal; */
-    position:inherit;
-    border: 0px;
-    /* margin-top: 400px; */
-    padding-top: 50px;
-    display: flex;
-    width: 68%;
-    margin: auto;
-    /* margin-left: 17%; */
-    /* background-color: rgba(128, 128, 128, 0.345); */
-}
-.about{
-    margin-top: 15px;
-    font-family:'Times New Roman', Times, serif;
-}
-#posterLeft{
-    margin-top: 100px;
-}
-#line{
-    border-left: 5px solid grey;
-    height: 90px;
-    margin-top: 15px;
-}
-#lineAndSummary{
-    display: flex;
-}
-#summaryDiv{
-    width: 350px;
-    margin-top: 15px;
-}
-#summary{
-    margin-left: 10px;
-    font-size: 25px;
-    font-family:'Times New Roman', Times, serif;
-}
-#myImage{
-    width: 60%;
-    height: 70%;
-    margin-left: 200px;
-    margin-top: 90px;
-    border-radius: 50%;
-}
-#location{
-    display: flex;
-}
-#locationImage{
-    margin-top: 15px;
-    width: 35px;
-    height: 32px;
-}
-#locationAddress{
-    /* margin-left: 50px; */
-    margin-top: 18px;
-    font-size: 20px;
-}
-#buttonResume{
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: grey;
-    border-radius: 5%;
-    border: 0px;
-    color: white;
-}
-
-/**************  POSTER END  **********************/
-
-/************* EDUCATIONAL BACK GROUND ***************/
-#EducationalBackGround{
-    margin: auto;
-    width: 68%;
-    /* background-color: teal; */
-    margin-top: 150px;
-    border: 1px solid gray;
-    border-radius: 8px;
-}
-#eHeading{
-    text-align: center;
-    padding: 10px;
-}
-#horizontalEducation{
-    border: 1px solid gray;
-    margin-top: 15px;
-
-}
-#fullStack{
-    /* background-color: red; */
+.anchoreConnect{
+    text-decoration:none;
+    color:inherit;
     
 }
-.masai{
-    margin-top: 15px;
-    margin-left: 5px;
-}
-.educationBack{
-    margin: auto;
-    width: 70%;
-    border: 2px solid gray;
-    border-left: 10px solid gray;
-    margin-top: 30px;
-    border-radius: 5px;
-}
-#eHeading{
-    text-align: center;
-}
-.topEducation{
-    display: flex;
+#education:hover{
+    
+    color: green;
+    font-weight: bold;
 }
 
-.pencil{
-    width: 32px;
-    height: 35px;
-    margin-left: 40px;
-    margin-top: 15px;
-}
-.fromWhere{
-    font-size: 20px;
-    margin-top: 15px;
-    margin-left: 40px;
-}
-.When{
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-}
-#Intermediate{
-    margin-bottom: 30px;
+#skills:hover{
+    color: green;
+    font-weight: bold;
 }
 
-/************* EDUCATIONAL BACK GROUND END ***************/
+#projects:hover{
+    color: green;
+    font-weight: bold;
+}
 
-
+#contact:hover{
+    color: green;
+    font-weight: bold;
+}
+#resume:hover{
+    color: green;
+    font-weight: bold;
+}
+/********************* NAV BAR END ************************/
