@@ -678,11 +678,22 @@
   margin-bottom: 20px;
   } */
   
-  .pfp {
+  /* .pfpp {
   width: 28vw;
   border-radius: 35em;
-  
+  } */
+
+  .pfpp{
+    width: 100%;
   }
+
+  #eatfresh{
+    width: 90%;
+  }
+  #nurseryImage{
+    border-radius: 35em;
+  }
+
   .address{
     font-size: small;
     text-align: center;
