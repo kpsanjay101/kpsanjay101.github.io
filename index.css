@@ -704,4 +704,8 @@
   .tag{
     padding: 3px;
   }
+  #skemail{
+    text-decoration: none;
+    color: inherit;
   }
+}
