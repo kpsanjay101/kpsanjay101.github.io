@@ -140,7 +140,9 @@
                 0 0 15px rgb(9, 144, 81),
                 0 0 50px rgb(6, 148, 93);
   }
-  
+  #resume-link-1{
+    cursor: pointer;
+  }
   .resume-button{
    opacity:0%;
   }
